@@ -11,7 +11,7 @@ app.use(express.json())
 const port =process.env.PORT || 4000
 
 app.use(cookieParser())
-app.use(cors({  origin: "http://localhost:5173", // your frontend
+app.use(cors({  origin: "https://complete-mern-sign-up-login-system.vercel.app", // your frontend
 credentials:true}))
 connectDB()
 //API endpoints
